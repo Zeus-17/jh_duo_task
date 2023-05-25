@@ -9,4 +9,4 @@ ENV YOUR_NAME=James
 # Expose the correct port
 EXPOSE 5500
 # Create an entrypoint
-ENTRYPOINT ["python3", "app.py"]
+ENTRYPOINT ["/usr/local/bin/python3", "app.py"]
