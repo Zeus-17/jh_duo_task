@@ -3,8 +3,8 @@ services:
   flask-app:
     build: ./flask-app
     ports:
-    - target: 5000
-      published: 5000
+    - target: 5500
+      published: 5500
       protocol: tcp
   nginx:
     image: nginx:latest
